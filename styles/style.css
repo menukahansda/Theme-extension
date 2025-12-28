@@ -1,0 +1,13 @@
+body.my-dark {
+  filter: invert(1) hue-rotate(180deg);
+  background: #363030ff;
+}
+
+body.my-dark img,
+body.my-dark video,
+body.my-dark svg,
+body.my-dark iframe,
+body.my-dark canvas {
+  filter: invert(1) hue-rotate(180deg);
+}
+
